@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="./assets/images/bootstrap.png"/>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Myles Alcala Bootstrap Portfolio</title>
+
+  </head>
+  <body>
+    <style>
+        body {
+          background-color: gainsboro;
+        }
+
+        ul.nav > li.nav-item > a {
+          color: gray;
+        }
+        
+        h1 {
+          color: teal;
+          font-size: 150%;
+          font-family:'Times New Roman', Times, serif;
+          font-weight: bold;
+        } 
+        
+        p.name {
+          color: white;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 110%;
+
+          margin-top: 0.5em;
+          margin-bottom: 0rem;
+        }
+
+        p.text_content {
+          font-size: 90%;
+          color: gray;
+        }
+
+        div.container > div.row > div.column {
+          background-color: teal;
+          padding-left: 1em;
+          padding-right: 1em;
+          height: 3em;
+        }
+        
+        .content {
+          background-color: rgba(254, 255, 255, 0.75);
+          border-width: 1px;
+          border-style: solid;
+          border-color: lightgrey;
+          
+          height: 35em;
+          margin-top: 2em;
+          padding: 3%;
+        }
+
+        @media only screen and (max-width: 767px) 
+        {
+          .content{
+            height: 60em;
+          }
+          img{
+            margin-left: 25%;
+          }
+        }
+
+        .header {
+          height: 3em;
+          background-color: white;
+          position: sticky;
+        }
+        
+        div.container {
+          border-bottom: 1px inset gray;
+        }
+        
+        .footer {
+          width: 100%;
+          background-color: darkslategray;
+
+          overflow: hidden;
+          position: fixed;
+          margin: 0;
+          left: 0;
+          bottom: 0;
+          height: 4em;
+
+          color: lightgray;
+          background-color: #3e3b3b;
+          border-top: 8px solid #4aaaa5;
+        }
+
+        div.bg_char {
+          /* position: absolute; */
+          top: 32.5em;
+          
+          z-index: -5;
+          position: fixed;
+          right: -8em;
+          
+          margin-left: 62em;
+          margin-right: auto;
+          margin-top: -30em;
+          
+          /* Debugging
+          border-width: 3px;
+          border-color: orangered;
+          border-style: groove;
+          */
+        }
+
+        div.row > p {
+          font-size: 13px;
+          text-align: center;
+          width: 100%;
+        }
+
+        audio {
+          width: 100%;
+          padding: 0;
+          margin: 0;
+          margin-bottom: -2.5em;
+        }
+
+        div.custom_audio {
+          position: fixed;
+          width: 100%;
+        }
+
+    </style>
+    
+    <div class="container">
+      <div class="row header">
+        <div class="column sm-6">
+          <p class="name">Myles Alcala</p>
+        </div>
+
+        <ul class="nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+      </div>
+    </div>  
+
+    <div class="container">
+      <div class="row">
+        <div class="col justify-content-center content">
+          <h1>About Me</h1>
+          <hr>
+          <div class="row">
+            <div class="col-md-3">
+              <img src="./assets/images/bio.png" alt="Anime Girl" class="img-thumbnail">
+            </div>
+
+            <div class="col-md-9">
+              <p class="text_content">Hi, I'm Myles and welcome to my page! I'm a musician, a gaming enthusiast, a Netflix/Youtube addict, a bit of a software engineer, a dog lover, and although I don't get enough sleep I drink enough coffee to get by. ZZZzzz...(-, – )>c[_]</p>
+
+              <p class="text_content">I'm currently building a career in videogame development but I do a lot of things in my spare time. For one, I'm a classically trained pianist, I've been playing for over a decade. The piano is my all-time favorite instrument and it amazes me how much encompassing musical knowledge one can gain by just studying piano theory alone. Every now and then to my surprise, I notice my keyboard experience can play into other non-musical aspects of my life (my typing speed and in-game reaction speed can only be proof of this). (๑•̀ㅂ•́)و </p>
+
+              <p class="text_content">I produce music as a hobby and enjoy doing everything from playing, to modding, to studying and creating games. I recently obtained my bachelors in IT with a specialization in game development. I love games! ◟(๑•͈ᴗ•͈)◞</p>
+
+              <p class="text_content">When it comes to coding and page development, my favorite process is getting to the end and watching it all come together. Problem solving is a big plus too - the finished product is almost always worth the frustration. Usually when it comes to any technical project I try to keep an eye out for for aesthetics and functionality, it usually helps that I'm a bit of a perfectionist (but not always). Expect way better webpages while I continue to improve on my coding. (•̀ᴗ•́)൬༉</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br><br>
+      
+      <div class="row footer">
+          <p>Copyright © Myles Alcala | Song Credits: Hannah Diamond - Every Night</p>
+
+          <div class="custom_audio">
+              <audio controls autoplay>
+                <source src="./assets/music/every_night.mp3">
+                Error: your web browser does not support this audio player.
+              </audio>
+          </div>
+      </div>
+    </div>
+
+    <div class="bg_char">
+        <img src="./assets/images/greetings.png" alt="anime girl greeting">
+    </div>
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
