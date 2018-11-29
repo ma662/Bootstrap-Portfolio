@@ -49,7 +49,7 @@
                 background-color: teal;
                 padding-left: 1em;
                 padding-right: 1em;
-                height: 3em;
+                height: 3.1em;
             }
         
             
@@ -59,17 +59,18 @@
                 border-style: solid;
                 border-color: lightgrey;
                 
-                height: 42em;
-                margin-top: 2em;
+                height: 75%;
+                margin-top: 5em;
                 padding: 3%;
             }
     
             @media only screen and (max-width: 767px) 
             {
                 .content{
-                height: 100em;
+                height: 80%;
                 }
                 img{
+                margin-top: 2%;
                 margin-left: 25%;
                 }
             }
@@ -137,7 +138,7 @@
                 width: 100%;
             }
 
-            div.row {
+            div.container > div.row > div.col > div.row {
                 padding-bottom: 5%;
             }
             
@@ -155,29 +156,39 @@
                 margin-right: auto; --> 
                 height: 3em;
             } */
+
+            .full-span-header {
+                width: 100%;
+                background-color: white;
+                height: 3.1em;
+                position: absolute;
+                border-bottom: 1px inset gray;
+            }
         </style>
             
         
-        <div class="container">
-            <div class="row header">
+        <div class="full-span-header">
+            <div class="container">
+                <div class="row header">
                 <div class="column sm-6">
                     <p class="name">Myles Alcala</p>
                 </div>
         
                 <ul class="nav ml-auto">
                     <li class="nav-item">
-                    <a class="nav-link active" href="./index.html">About</a>
+                        <a class="nav-link active" href="./index.html">About</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
+                        <a class="nav-link" href="./contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
+            </div>  
         </div>
-      
+
         <!-- Content -->
         <div class="container thing">
             <div class="row">
@@ -186,35 +197,35 @@
                 <hr>
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+                                <img src="./assets/images/3.jpg" alt="Placeholder" class="img-thumbnail">
                         </div>
                         <div class="col-md-4">
-                                <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+                                <img src="./assets/images/3.jpg" alt="Placeholder" class="img-thumbnail">
                         </div>
                         <div class="col-md-4">
-                                <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+                                <img src="./assets/images/3.jpg" alt="Placeholder" class="img-thumbnail">
                         </div> 
                     </div> 
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+                                <img src="./assets/images/3.jpg" alt="Placeholder" class="img-thumbnail">
                         </div>
                         <div class="col-md-4">
-                                <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+                                <img src="./assets/images/3.jpg" alt="Placeholder" class="img-thumbnail">
                         </div>
                         <div class="col-md-4">
-                                <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+                                <img src="./assets/images/3.jpg" alt="Placeholder" class="img-thumbnail">
                         </div> 
                     </div> 
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+                                <img src="./assets/images/3.jpg" alt="Placeholder" class="img-thumbnail">
                         </div>
                         <div class="col-md-4">
-                                <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+                                <img src="./assets/images/3.jpg" alt="Placeholder" class="img-thumbnail">
                         </div>
                         <div class="col-md-4">
-                                <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+                                <img src="./assets/images/3.jpg" alt="Placeholder" class="img-thumbnail">
                         </div> 
                     </div> 
                 </div>

@@ -48,7 +48,7 @@
           background-color: teal;
           padding-left: 1em;
           padding-right: 1em;
-          height: 3em;
+          height: 3.1em;
         }
         
         .content {
@@ -58,7 +58,7 @@
           border-color: lightgrey;
           
           height: 35em;
-          margin-top: 2em;
+          margin-top: 5em;
           padding: 3%;
         }
 
@@ -78,9 +78,9 @@
           position: sticky;
         }
         
-        div.container {
+        /* div.container {
           border-bottom: 1px inset gray;
-        }
+        } */
         
         .footer {
           width: 100%;
@@ -134,28 +134,37 @@
           position: fixed;
           width: 100%;
         }
-
+        
+        .full-span-header {
+          width: 100%;
+          background-color: white;
+          height: 3.1em;
+          position: absolute;
+          border-bottom: 1px inset gray;
+        }
     </style>
     
-    <div class="container">
-      <div class="row header">
-        <div class="column sm-6">
-          <p class="name">Myles Alcala</p>
-        </div>
+    <div class="full-span-header">
+      <div class="container">
+        <div class="row header">
+          <div class="column sm-6">
+            <p class="name">Myles Alcala</p>
+          </div>
 
-        <ul class="nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="./index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
-            </li>
-        </ul>
+          <ul class="nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="./index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+          </ul>
       </div>
     </div>  
+  </div>
 
     <div class="container">
       <div class="row">
